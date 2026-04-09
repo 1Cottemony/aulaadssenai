@@ -1,0 +1,10 @@
+minha_lista = [10, 5, 7, 77, 100]
+print(minha_lista)
+print(minha_lista[0])
+print(minha_lista[1])
+print(minha_lista[4])
+print(minha_lista[-1])
+print(minha_lista[-2])
+print(minha_lista[-3])
+tamanho_lista = len(minha_lista)
+print("O tamanho da lista é: ", tamanho_lista)
