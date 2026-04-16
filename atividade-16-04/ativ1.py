@@ -15,3 +15,7 @@ class Triangulo(Forma):
         self.altura = altura
     def area(self):
         return (self.base * self.altura)/2
+
+firnas = [Retangulo(10,5), Triangulo(10,5)]
+for forma in formas:
+    print("Área", forma.area())
